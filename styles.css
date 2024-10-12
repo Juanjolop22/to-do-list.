@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg,#d8e7ef,#44768a );
+    justify-content: center;
+    text-align: center;
+}
+header{
+    background-color: #0a191e;
+    height: 9%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #4c040b solid 7px;
+}
+h1{
+    font-size: 4vh;
+    color: white;
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+   width: 100%;
+   font-size: 20px;
+}
+#list{
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h2{
+    border-bottom: 7px solid #4c040b;
+    background-color: #0a191e;
+    height: 70px;
+    padding-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    color: whitesmoke}
+#inputNav{
+    width: 100%;
+    height: 20%;
+}
+#inputTask{
+    margin-right: 15px;
+    margin-top: 7%;
+    width: 70%;
+    height: 29%;
+    border-radius: 15px;
+   font-size: 20px;
+   padding-left: 10px;
+   border: solid rgb(18, 53, 61);
+
+}
+#addButton{
+    height: 28%;
+    width: 11%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#addbutton:hover{
+    background-color: #374c55;
+    transform: scale(1.30);
+    color: white;
+}
+#inputList{
+    height: 80%;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}  
+.eachList{
+    width: 80%;
+    height: 10%;
+    margin-bottom:  30px;
+    padding: 0px 20px;
+    background-color: #b0ccd6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: solid rgb(2, 0, 8);
+}
+.buttonEdit{
+    position: relative;
+    left:150px;
+}
+.buttonDelete, .buttonEdit, .buttonSave{
+    border-radius: 10px;
+    height: 70%;
+    width: 15%;
+    cursor: pointer;
+}
+.buttonSave{
+    border-radius: 10px;
+    height: 70%;
+    width: 15%;
+}
+.buttonDelete:hover, .buttonEdit:hover, .buttonSave:hover{
+    background-color: rgb(64, 129, 161);
+    transform: scale(1.05);
+}
+   
+#taskList{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+footer{
+    border-top: 7px solid #4c040b;
+    height: 20%;
+    background-color: #0a191e;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 25px;
+} 
+#icons1{
+    font-size: 100px; 
+    color: #e34c26;
+    margin-right: 8px;
+}
+#icons2{
+    font-size: 100px; 
+    color: #264de4;
+    margin-right: 8px;
+
+}
+#icons3{
+    font-size: 100px;
+     color: #f7df1e;
+}
+footer p{
+    font-size: 35px
+}
+
+
+    
+    
+  
+
+
+    
